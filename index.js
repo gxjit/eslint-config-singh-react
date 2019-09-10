@@ -5,5 +5,6 @@ module.exports = {
     'eslint-config-airbnb/rules/react-hooks.js',
     './react-overwrites'
   ].map(require.resolve),
-  parserOptions: require('eslint-config-singh').parserOptions
+  parserOptions: require('eslint-config-singh').parserOptions,
+  env: require('eslint-config-singh').env
 }

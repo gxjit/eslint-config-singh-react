@@ -1,3 +1,5 @@
+const { env, parserOptions } = require('eslint-config-singh')
+
 module.exports = {
   extends: [
     'eslint-config-singh',
@@ -5,6 +7,6 @@ module.exports = {
     'eslint-config-airbnb/rules/react-hooks.js',
     './react-overwrites'
   ].map(require.resolve),
-  parserOptions: require('eslint-config-singh').parserOptions,
-  env: require('eslint-config-singh').env
+  parserOptions,
+  env
 }

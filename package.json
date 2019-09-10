@@ -13,7 +13,7 @@
   "author": "Gurjit Singh",
   "license": "MIT",
   "dependencies": {
-    "gxjit/eslint-config-singh-react": "^0.1.0",
+    "eslint-config-singh": "gxjit/eslint-config-singh",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.1.0"
   },

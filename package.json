@@ -13,7 +13,7 @@
   "author": "Gurjit Singh",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-singh": "^0.1.0",
+    "https://github.com/gxjit/eslint-config-singh-react/tarball/master": "^0.1.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.1.0"
   },

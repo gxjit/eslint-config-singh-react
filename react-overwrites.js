@@ -15,6 +15,10 @@ module.exports = {
     // Prevent usage of setState in componentDidMount
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
     // this is necessary for server-rendering
-    'react/no-did-mount-set-state': 'error'
+    'react/no-did-mount-set-state': 'error',
+
+    // Prevent missing props validation in a React component definition
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
+    'react/prop-types': 'off'
   }
 }
